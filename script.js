@@ -126,14 +126,14 @@ function mostraResultado() {
     if (respostasA > respostasB) {
 
         textoResultado.textContent =
-            "Maioria A — Você é Aventureiro(a)! " +
+            "Você é Aventureiro(a)! " +
             "Você gosta de novidades, desafios e experiências diferentes. " +
             "A rotina pode até ser confortável, mas você prefere quando existe algo novo para descobrir.";
 
     } else {
 
         textoResultado.textContent =
-            "Maioria B — Você é Tranquilo(a)! " +
+            "Você é Tranquilo(a)! " +
             "Você valoriza estabilidade, conforto e momentos de paz. " +
             "Prefere pensar antes de agir e gosta de aproveitar as coisas no seu próprio ritmo.";
     }
